@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cadastro">
+        <header>Cadastre-se</header>
+            <form action="cadastro.php" method="POST">
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" placeholder="Nome"><br>
+
+                <label for="sobrenome">Sobrenome:</label><br>
+                <input type="text" name="sobrenome" placeholder="Sobrenome"><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="text" name="telefone" placeholder="(xx) xxxxx-xxxx"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" placeholder="Email"><br>
+
+                <label for="logradouro">Logradouro:</label><br>
+                <input type="text" name="logradouro" placeholder="Logradouro"><br>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" name="senha" placeholder="***********"><br>
+
+                <button>Cadastrar</button>
+            </form>
+    </div>
+</body>
+</html>
